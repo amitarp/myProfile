@@ -125,7 +125,7 @@ section {
 
 .home {
     display: flex;
-    background: url("pic1.jpg") no-repeat center;
+    background: url("../images/pic1.jpg") no-repeat center;
     height: 100vh;
     min-height: 500px;
     color: #fff;
@@ -558,10 +558,11 @@ section {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100px;
+  max-width: 50px;
   position: relative;
   margin: auto;
-  align-items: center;
+  /* align-items: center; */
+  text-align: left;
 }
 
 /* Hide the images by default */
@@ -889,6 +890,9 @@ footer span a:hover {
 @media (max-width:690px) {
     .max-width {
         padding: 0 23px;
+    }
+    .slideshow-container{
+        text-align: center;
     }
     .home .home-content .text-2 {
         font-size: 60px;
