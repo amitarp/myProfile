@@ -125,7 +125,7 @@ section {
 
 .home {
     display: flex;
-    background: url("../images/pic1.jpg") no-repeat center;
+    background: url("pic1.jpg") no-repeat center;
     height: 100vh;
     min-height: 500px;
     color: #fff;
